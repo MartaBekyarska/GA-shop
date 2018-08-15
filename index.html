@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1><span class="barbie">Barbie</span> Shop</h1>
+  <h2>London's biggest <span class="barbie">Barbie</span> Shop</h2>
+  <div class="female">
+    <p><span class="barbie-type">Female Barbies </span><span class="price">£80</span><br />
+      <small>Mustard sierra leone bologi kale chard beet</small></p>
+    </div>
+
+    <div class="male">
+      <p><span class="barbie-type">Male Barbies </span><span class="price">£52</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+
+      <div class="baby">
+        <p><span class="barbie-type">Baby Barbies </span><span class="price">£25</span><br />
+          <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.
+          </small></p>
+        </div>
+        <script>
+          $( document ).ready(function() {
+            $('div').on('click', function() {
+              $(this).toggleClass('show-description');
+            });
+          });
+        </script>
+      </body>
+      </html>
